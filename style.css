@@ -1,0 +1,250 @@
+body {
+    /* width: 75%; */
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav a {
+    font-size: 1.5em;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#nav a:hover {
+    background-color: #03045e;
+    color: white;
+    font-weight: bold;
+}
+
+/* About */
+.about:nth-of-type(1) {
+    height: 500px;
+    background-image: url("pic.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.about:nth-of-type(2) {
+    height: 500px;
+    background-image: url("pic2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about h2,
+.about p {
+    color: white;
+    padding: 20px;
+}
+
+.about h2 {
+    background-color: #0077b6;
+    text-transform: uppercase;
+}
+
+.about p {
+    background-color: #03045e;
+    font-size: 1.1em;
+}
+
+/* Services */
+#service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#service h2 {
+    color: #03045e;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+#service p {
+    font-size: 1.2em;
+}
+
+#services article {
+    padding: 20px 3px;
+    background-color: #00b4d8;
+    margin: 5px;
+    border-radius: 10%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#services a {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+/* Clients */
+#client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#client h2 {
+    color: #03045e;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+#client p {
+    font-size: 1.2em;
+}
+
+#clients article {
+    width: 50%;
+    padding: 35px;
+    background-color: #00b4d8;
+    margin: 5px;
+    border-radius: 10%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Our Team */
+
+.wrapper {
+    margin-top: 50px;
+}
+
+.wrapper h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member {
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.team .team_member h3 {
+    color: rebeccapurple;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role {
+    margin: 12px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.team .team_member .team_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.team .team_member .team_img img {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #03045e;
+    color: white;
+    font-size: 1.1em;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#footer div,
+#footer nav {
+    flex-basis: 200px;
+}
+#footer #footer1 {
+    flex-grow: 2;
+}
+
+#footer #footer2 {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+#footer nav {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: end;
+}
+#footer nav a {
+    color: white;
+}
+
+footer footer {
+    display: flex;
+    justify-content: space-between;
+}
